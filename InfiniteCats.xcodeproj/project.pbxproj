@@ -278,11 +278,15 @@
 		59FEFD7314F320F800F97E43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Timothy Johnsen (53XC84URUL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Timothy Johnsen (53XC84URUL)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InfiniteCats/InfiniteCats-Prefix.pch";
 				INFOPLIST_FILE = "InfiniteCats/InfiniteCats-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5942D88C-4404-4059-83DD-E474D51EA6D6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5942D88C-4404-4059-83DD-E474D51EA6D6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -290,11 +294,15 @@
 		59FEFD7414F320F800F97E43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Timothy Johnsen (53XC84URUL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Timothy Johnsen (53XC84URUL)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InfiniteCats/InfiniteCats-Prefix.pch";
 				INFOPLIST_FILE = "InfiniteCats/InfiniteCats-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5942D88C-4404-4059-83DD-E474D51EA6D6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5942D88C-4404-4059-83DD-E474D51EA6D6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
