@@ -29,10 +29,10 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
 	if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-		return 140.0;
+		return 160.0;
 	}
 	
-	return 251.0;
+	return 256.0;
 }
 
 #pragma mark -
@@ -57,10 +57,10 @@
 #pragma mark Custom
 
 - (NSString *)urlForIndex:(int)index {
-	int width = index / 200;
-	int height = index % 200;
+	int width = index % 150;
+	int height = index / 150;
 	
-	NSString *url = [NSString stringWithFormat:@"http://placekitten.com/%d/%d", 100 + width, 100 + height];
+	NSString *url = [NSString stringWithFormat:@"http://placekitten.com/%d/%d", 150 + width, 150 + height];
 	
 	return url;
 }

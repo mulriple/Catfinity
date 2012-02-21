@@ -8,7 +8,7 @@
 
 #import "TJTileViewController.h"
 
-#define TILE_INSET ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone ? 10.0f : 20.0f) 
+#define TILE_INSET ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone ? 4.0f : 4.0f) 
 #define TILE_TAG 666
 
 @interface TJTileViewController ()
