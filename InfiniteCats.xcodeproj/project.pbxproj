@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59FEFD5F14F320F800F97E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FEFD5E14F320F800F97E43 /* UIKit.framework */; };
+		59FEFD6114F320F800F97E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FEFD6014F320F800F97E43 /* Foundation.framework */; };
+		59FEFD6314F320F800F97E43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FEFD6214F320F800F97E43 /* CoreGraphics.framework */; };
+		59FEFD6914F320F800F97E43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59FEFD6714F320F800F97E43 /* InfoPlist.strings */; };
+		59FEFD6B14F320F800F97E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD6A14F320F800F97E43 /* main.m */; };
+		59FEFD6F14F320F800F97E43 /* ICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD6E14F320F800F97E43 /* ICAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59FEFD5A14F320F800F97E43 /* InfiniteCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FEFD5E14F320F800F97E43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59FEFD6014F320F800F97E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59FEFD6214F320F800F97E43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59FEFD6614F320F800F97E43 /* InfiniteCats-Info.plist */ = {isa = PBXFileReference; path = "InfiniteCats-Info.plist"; sourceTree = "<group>"; };
+		59FEFD6814F320F800F97E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59FEFD6A14F320F800F97E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59FEFD6C14F320F800F97E43 /* InfiniteCats-Prefix.pch */ = {isa = PBXFileReference; path = "InfiniteCats-Prefix.pch"; sourceTree = "<group>"; };
+		59FEFD6D14F320F800F97E43 /* ICAppDelegate.h */ = {isa = PBXFileReference; path = ICAppDelegate.h; sourceTree = "<group>"; };
+		59FEFD6E14F320F800F97E43 /* ICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59FEFD5714F320F800F97E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FEFD5F14F320F800F97E43 /* UIKit.framework in Frameworks */,
+				59FEFD6114F320F800F97E43 /* Foundation.framework in Frameworks */,
+				59FEFD6314F320F800F97E43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59FEFD4F14F320F800F97E43 = {
+			isa = PBXGroup;
+			children = (
+				59FEFD6414F320F800F97E43 /* InfiniteCats */,
+				59FEFD5D14F320F800F97E43 /* Frameworks */,
+				59FEFD5B14F320F800F97E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59FEFD5B14F320F800F97E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59FEFD5A14F320F800F97E43 /* InfiniteCats.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59FEFD5D14F320F800F97E43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59FEFD5E14F320F800F97E43 /* UIKit.framework */,
+				59FEFD6014F320F800F97E43 /* Foundation.framework */,
+				59FEFD6214F320F800F97E43 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59FEFD6414F320F800F97E43 /* InfiniteCats */ = {
+			isa = PBXGroup;
+			children = (
+				59FEFD6D14F320F800F97E43 /* ICAppDelegate.h */,
+				59FEFD6E14F320F800F97E43 /* ICAppDelegate.m */,
+				59FEFD6514F320F800F97E43 /* Supporting Files */,
+			);
+			path = InfiniteCats;
+			sourceTree = "<group>";
+		};
+		59FEFD6514F320F800F97E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59FEFD6614F320F800F97E43 /* InfiniteCats-Info.plist */,
+				59FEFD6714F320F800F97E43 /* InfoPlist.strings */,
+				59FEFD6A14F320F800F97E43 /* main.m */,
+				59FEFD6C14F320F800F97E43 /* InfiniteCats-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59FEFD5914F320F800F97E43 /* InfiniteCats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FEFD7214F320F800F97E43 /* Build configuration list for PBXNativeTarget "InfiniteCats" */;
+			buildPhases = (
+				59FEFD5614F320F800F97E43 /* Sources */,
+				59FEFD5714F320F800F97E43 /* Frameworks */,
+				59FEFD5814F320F800F97E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteCats;
+			productName = InfiniteCats;
+			productReference = 59FEFD5A14F320F800F97E43 /* InfiniteCats.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59FEFD5114F320F800F97E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 59FEFD5414F320F800F97E43 /* Build configuration list for PBXProject "InfiniteCats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 59FEFD4F14F320F800F97E43;
+			productRefGroup = 59FEFD5B14F320F800F97E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59FEFD5914F320F800F97E43 /* InfiniteCats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59FEFD5814F320F800F97E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FEFD6914F320F800F97E43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59FEFD5614F320F800F97E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FEFD6B14F320F800F97E43 /* main.m in Sources */,
+				59FEFD6F14F320F800F97E43 /* ICAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59FEFD6714F320F800F97E43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59FEFD6814F320F800F97E43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59FEFD7014F320F800F97E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59FEFD7114F320F800F97E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59FEFD7314F320F800F97E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfiniteCats/InfiniteCats-Prefix.pch";
+				INFOPLIST_FILE = "InfiniteCats/InfiniteCats-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59FEFD7414F320F800F97E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfiniteCats/InfiniteCats-Prefix.pch";
+				INFOPLIST_FILE = "InfiniteCats/InfiniteCats-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59FEFD5414F320F800F97E43 /* Build configuration list for PBXProject "InfiniteCats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FEFD7014F320F800F97E43 /* Debug */,
+				59FEFD7114F320F800F97E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FEFD7214F320F800F97E43 /* Build configuration list for PBXNativeTarget "InfiniteCats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FEFD7314F320F800F97E43 /* Debug */,
+				59FEFD7414F320F800F97E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59FEFD5114F320F800F97E43 /* Project object */;
+}
