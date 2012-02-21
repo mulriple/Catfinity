@@ -1,0 +1,3 @@
+[submodule "Vendor/TJImageCache"]
+	path = Vendor/TJImageCache
+	url = git@github.com:tijoinc/TJImageCache.git

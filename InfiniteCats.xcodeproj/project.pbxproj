@@ -13,6 +13,11 @@
 		59FEFD6914F320F800F97E43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59FEFD6714F320F800F97E43 /* InfoPlist.strings */; };
 		59FEFD6B14F320F800F97E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD6A14F320F800F97E43 /* main.m */; };
 		59FEFD6F14F320F800F97E43 /* ICAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD6E14F320F800F97E43 /* ICAppDelegate.m */; };
+		59FEFD7914F3213F00F97E43 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 59FEFD7614F3213F00F97E43 /* Readme.md */; };
+		59FEFD7A14F3213F00F97E43 /* TJImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD7814F3213F00F97E43 /* TJImageCache.m */; };
+		59FEFD7D14F3215400F97E43 /* TJTileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD7C14F3215400F97E43 /* TJTileViewController.m */; };
+		59FEFD8014F3218700F97E43 /* ICCatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD7F14F3218700F97E43 /* ICCatsViewController.m */; };
+		59FEFD8314F321C600F97E43 /* ICImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FEFD8214F321C600F97E43 /* ICImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,21 @@
 		59FEFD5E14F320F800F97E43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59FEFD6014F320F800F97E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59FEFD6214F320F800F97E43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		59FEFD6614F320F800F97E43 /* InfiniteCats-Info.plist */ = {isa = PBXFileReference; path = "InfiniteCats-Info.plist"; sourceTree = "<group>"; };
+		59FEFD6614F320F800F97E43 /* InfiniteCats-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfiniteCats-Info.plist"; sourceTree = "<group>"; };
 		59FEFD6814F320F800F97E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59FEFD6A14F320F800F97E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59FEFD6C14F320F800F97E43 /* InfiniteCats-Prefix.pch */ = {isa = PBXFileReference; path = "InfiniteCats-Prefix.pch"; sourceTree = "<group>"; };
-		59FEFD6D14F320F800F97E43 /* ICAppDelegate.h */ = {isa = PBXFileReference; path = ICAppDelegate.h; sourceTree = "<group>"; };
+		59FEFD6C14F320F800F97E43 /* InfiniteCats-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfiniteCats-Prefix.pch"; sourceTree = "<group>"; };
+		59FEFD6D14F320F800F97E43 /* ICAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICAppDelegate.h; sourceTree = "<group>"; };
 		59FEFD6E14F320F800F97E43 /* ICAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICAppDelegate.m; sourceTree = "<group>"; };
+		59FEFD7614F3213F00F97E43 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
+		59FEFD7714F3213F00F97E43 /* TJImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJImageCache.h; sourceTree = "<group>"; };
+		59FEFD7814F3213F00F97E43 /* TJImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJImageCache.m; sourceTree = "<group>"; };
+		59FEFD7B14F3215400F97E43 /* TJTileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJTileViewController.h; sourceTree = "<group>"; };
+		59FEFD7C14F3215400F97E43 /* TJTileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJTileViewController.m; sourceTree = "<group>"; };
+		59FEFD7E14F3218700F97E43 /* ICCatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICCatsViewController.h; sourceTree = "<group>"; };
+		59FEFD7F14F3218700F97E43 /* ICCatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICCatsViewController.m; sourceTree = "<group>"; };
+		59FEFD8114F321C600F97E43 /* ICImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICImageView.h; sourceTree = "<group>"; };
+		59FEFD8214F321C600F97E43 /* ICImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,13 @@
 			children = (
 				59FEFD6D14F320F800F97E43 /* ICAppDelegate.h */,
 				59FEFD6E14F320F800F97E43 /* ICAppDelegate.m */,
+				59FEFD7B14F3215400F97E43 /* TJTileViewController.h */,
+				59FEFD7C14F3215400F97E43 /* TJTileViewController.m */,
+				59FEFD7E14F3218700F97E43 /* ICCatsViewController.h */,
+				59FEFD7F14F3218700F97E43 /* ICCatsViewController.m */,
+				59FEFD8114F321C600F97E43 /* ICImageView.h */,
+				59FEFD8214F321C600F97E43 /* ICImageView.m */,
+				59FEFD7514F3213F00F97E43 /* TJImageCache */,
 				59FEFD6514F320F800F97E43 /* Supporting Files */,
 			);
 			path = InfiniteCats;
@@ -88,6 +109,16 @@
 				59FEFD6C14F320F800F97E43 /* InfiniteCats-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59FEFD7514F3213F00F97E43 /* TJImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				59FEFD7614F3213F00F97E43 /* Readme.md */,
+				59FEFD7714F3213F00F97E43 /* TJImageCache.h */,
+				59FEFD7814F3213F00F97E43 /* TJImageCache.m */,
+			);
+			path = TJImageCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59FEFD6914F320F800F97E43 /* InfoPlist.strings in Resources */,
+				59FEFD7914F3213F00F97E43 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +185,10 @@
 			files = (
 				59FEFD6B14F320F800F97E43 /* main.m in Sources */,
 				59FEFD6F14F320F800F97E43 /* ICAppDelegate.m in Sources */,
+				59FEFD7A14F3213F00F97E43 /* TJImageCache.m in Sources */,
+				59FEFD7D14F3215400F97E43 /* TJTileViewController.m in Sources */,
+				59FEFD8014F3218700F97E43 /* ICCatsViewController.m in Sources */,
+				59FEFD8314F321C600F97E43 /* ICImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
