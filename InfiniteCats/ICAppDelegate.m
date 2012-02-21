@@ -7,7 +7,6 @@
 //
 
 #import "ICAppDelegate.h"
-#import "ICCatsViewController.h"
 
 @implementation ICAppDelegate
 
@@ -15,6 +14,7 @@
 
 - (void)dealloc {
 	[_window release];
+	[_catsViewController release];
     [super dealloc];
 }
 
@@ -23,8 +23,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
 	
-	ICCatsViewController *catsViewController = [[ICCatsViewController alloc] init];
-	[self.window addSubview:catsViewController.view];
+	_catsViewController = [[ICCatsViewController alloc] init];
+	[self.window addSubview:_catsViewController.view];
 	
     return YES;
 }

@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ICCatsViewController.h"
 
-@interface ICAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ICAppDelegate : UIResponder <UIApplicationDelegate> {
+	ICCatsViewController *_catsViewController;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
