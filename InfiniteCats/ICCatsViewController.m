@@ -87,12 +87,17 @@
 
 - (NSString *)urlForIndex:(int)index {
 	
+	static NSArray *images = nil;
+	
+	static dispatch_once_t onceToken;
+	dispatch_once(&onceToken, ^{
+		images = [[NSArray alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"pics" ofType:@"plist"]];
+	});
+	
 	index %= (TOTAL_TILES / 4);
-	
-	int width = index % 150;
-	int height = index / 150;
-	
-	NSString *url = [NSString stringWithFormat:@"http://placekitten.com/%d/%d", 150 + width, 150 + height];
+	index %= [images count];
+
+	NSString *url = [images objectAtIndex:index];
 	
 	return url;
 }

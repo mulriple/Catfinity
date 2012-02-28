@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59825A7914FCB90400948CF3 /* pics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59825A7814FCB90400948CF3 /* pics.plist */; };
 		59FEFD5F14F320F800F97E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FEFD5E14F320F800F97E43 /* UIKit.framework */; };
 		59FEFD6114F320F800F97E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FEFD6014F320F800F97E43 /* Foundation.framework */; };
 		59FEFD6314F320F800F97E43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FEFD6214F320F800F97E43 /* CoreGraphics.framework */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59825A7814FCB90400948CF3 /* pics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pics.plist; sourceTree = SOURCE_ROOT; };
 		59FEFD5A14F320F800F97E43 /* InfiniteCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FEFD5E14F320F800F97E43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		59FEFD6014F320F800F97E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,6 +108,7 @@
 				59FEFD7F14F3218700F97E43 /* ICCatsViewController.m */,
 				59FEFD8114F321C600F97E43 /* ICImageView.h */,
 				59FEFD8214F321C600F97E43 /* ICImageView.m */,
+				59825A7814FCB90400948CF3 /* pics.plist */,
 				59FEFD7514F3213F00F97E43 /* TJImageCache */,
 				59FEFD6514F320F800F97E43 /* Supporting Files */,
 			);
@@ -197,6 +200,7 @@
 				59FEFDCE14F334E400F97E43 /* Default-Landscape~ipad.png in Resources */,
 				59FEFDD214F3351500F97E43 /* Default@2x.png in Resources */,
 				59FEFDD414F3351900F97E43 /* Default.png in Resources */,
+				59825A7914FCB90400948CF3 /* pics.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
